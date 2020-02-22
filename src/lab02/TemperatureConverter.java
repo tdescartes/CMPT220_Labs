@@ -31,12 +31,10 @@ public class TemperatureConverter {
 
         // If the degrees are entered in farheneit
         else if ( metrics == 'F') {
-        // the output afterward.
+            // the output afterward.
             System.out.println( degrees + " Farheneit degrees is equivalent " + ( 5*(degree - 32)/9) + " Celcius degrees");
         }
 
 
     }
 }
-
-

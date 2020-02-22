@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5efaf30-ed47-47c1-968c-534e5df9cd8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lab02/InchesToMeters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab02/TemperatureConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab03/ComplexLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab03/NestedLoops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab03/RockPaperScissors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab03/SimpleLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab04/SimpleArrayMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab04/TicTacToe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab02/TemperatureConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab02/TemperatureConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +27,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WogSN2WelEitLkPG5n36sH49u3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,13 +43,65 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab01.HelloWorld" />
+  <component name="RunManager" selected="Application.RockPaperScissors">
+    <configuration name="ComplexLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab03.ComplexLoop" />
       <module name="CMPT220_Labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab01.*" />
+          <option name="PATTERN" value="lab03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NestedLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab03.NestedLoops" />
+      <module name="CMPT220_Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RockPaperScissors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab03.RockPaperScissors" />
+      <module name="CMPT220_Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab03.SimpleLoop" />
+      <module name="CMPT220_Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemperatureConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab02.TemperatureConverter" />
+      <module name="CMPT220_Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -52,7 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.RockPaperScissors" />
+        <item itemvalue="Application.NestedLoops" />
+        <item itemvalue="Application.ComplexLoop" />
+        <item itemvalue="Application.SimpleLoop" />
+        <item itemvalue="Application.TemperatureConverter" />
       </list>
     </recent_temporary>
   </component>
@@ -67,7 +130,11 @@
       <option name="presentableId" value="Default" />
       <updated>1579821360742</updated>
       <workItem from="1579821362191" duration="473000" />
-      <workItem from="1580402093931" duration="3874000" />
+      <workItem from="1580402093931" duration="10756000" />
+      <workItem from="1580636580062" duration="10094000" />
+      <workItem from="1581137793361" duration="671000" />
+      <workItem from="1581632594336" duration="1873000" />
+      <workItem from="1582230359494" duration="12762000" />
     </task>
     <servers />
   </component>
@@ -79,9 +146,57 @@
       <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state x="327" y="90" key="#Project_Structure/0.23.1440.833@0.23.1440.833" timestamp="1580405637982" />
-    <state x="406" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1580402095932">
-      <screen x="0" y="23" width="1440" height="833" />
+    <state x="498" y="192" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1581133154388">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state x="406" y="257" key="com.intellij.ide.util.TipDialog/0.23.1440.833@0.23.1440.833" timestamp="1580402095932" />
+    <state x="498" y="192" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1440.832@0.23.1440.832" timestamp="1581133154388" />
+    <state width="1398" height="276" key="GridCell.Tab.0.bottom" timestamp="1582339581177">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1582235497844" />
+    <state width="1398" height="214" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1582117025685" />
+    <state width="1398" height="214" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1581635724341" />
+    <state width="895" height="214" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1581136160091" />
+    <state width="1398" height="276" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1582339581177" />
+    <state width="1398" height="215" key="GridCell.Tab.0.bottom/0.23.1440.836@0.23.1440.836" timestamp="1580493336955" />
+    <state width="1398" height="276" key="GridCell.Tab.0.center" timestamp="1582339581176">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1582235497839" />
+    <state width="1398" height="214" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1582117025674" />
+    <state width="1398" height="214" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1581635724340" />
+    <state width="895" height="214" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1581136160088" />
+    <state width="1398" height="276" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1582339581176" />
+    <state width="1398" height="215" key="GridCell.Tab.0.center/0.23.1440.836@0.23.1440.836" timestamp="1580493336949" />
+    <state width="1398" height="276" key="GridCell.Tab.0.left" timestamp="1582339581175">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1582235497837" />
+    <state width="1398" height="214" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1582117025665" />
+    <state width="1398" height="214" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1581635724340" />
+    <state width="895" height="214" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1581136160080" />
+    <state width="1398" height="276" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1582339581175" />
+    <state width="1398" height="215" key="GridCell.Tab.0.left/0.23.1440.836@0.23.1440.836" timestamp="1580493336948" />
+    <state width="1398" height="276" key="GridCell.Tab.0.right" timestamp="1582339581177">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1582235497843" />
+    <state width="1398" height="214" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1582117025678" />
+    <state width="1398" height="214" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1581635724341" />
+    <state width="895" height="214" key="GridCell.Tab.0.right/0.23.1440.833@0.23.1440.833" timestamp="1581136160089" />
+    <state width="1398" height="276" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1582339581177" />
+    <state width="1398" height="215" key="GridCell.Tab.0.right/0.23.1440.836@0.23.1440.836" timestamp="1580493336950" />
+    <state x="406" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1582230433236">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="406" y="256" key="com.intellij.ide.util.TipDialog/0.23.1440.830@0.23.1440.830" timestamp="1582230433236" />
+    <state x="406" y="256" key="com.intellij.ide.util.TipDialog/0.23.1440.832@0.23.1440.832" timestamp="1581632594937" />
+    <state x="406" y="256" key="com.intellij.ide.util.TipDialog/0.23.1440.833@0.23.1440.833" timestamp="1581137826538" />
+    <state x="406" y="257" key="com.intellij.ide.util.TipDialog/0.23.1440.834@0.23.1440.834" timestamp="1580636587392" />
+    <state x="385" y="178" width="670" height="680" key="search.everywhere.popup" timestamp="1582338764967">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="385" y="177" width="670" height="676" key="search.everywhere.popup/0.23.1440.830@0.23.1440.830" timestamp="1582238948528" />
+    <state x="385" y="178" width="670" height="680" key="search.everywhere.popup/0.23.1440.834@0.23.1440.834" timestamp="1582338764967" />
   </component>
 </project>
